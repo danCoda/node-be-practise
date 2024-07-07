@@ -1,7 +1,6 @@
 const http = require("node:http");
 const fs = require("node:fs");
 const url = require('node:url');
-const bodyParser = require('body-parser');
 
 let todos = [{ id: 1, description: "Finish this already" }, { id: 2, description: "Add a delete function" }, { id: 3, description: "Gotta dry clothes" }]
 
